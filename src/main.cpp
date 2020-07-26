@@ -24,7 +24,7 @@ int main(){
 		b[i] = new char[5];
 	}
 	for (int j = 1; j < 3; j++){
-		memcpy(b[j], str, 5);
+		memcpy(b[j], "ddefhefj", 5);
 	}
 
 	printf("初始化后的字符数组:");
