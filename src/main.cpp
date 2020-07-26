@@ -19,11 +19,9 @@ int main(){
 
 	printf("\n");
 
-	
+	char *a = new char[5];
 
-//	内存初始化 
-
-	memset(str,'\0',5);
+	memcpy(a, str, sizeof(str));
 
 	
 
@@ -31,7 +29,7 @@ int main(){
 
 	for(int i=0;i<5;i++)
 
-		printf("%c ",str[i]);
+		printf("%c ",a[i]);
 
 		
 
