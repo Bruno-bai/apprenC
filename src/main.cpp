@@ -30,7 +30,7 @@ int main(){
 	printf("初始化后的字符数组:");
 
 	for(int i=0;i<5;i++)
-		printf("%s ", *b[i]);
+		printf("%s ", *b);
 
 	for(int k = 1; k<3; k++)
 		delete [] b[k];
